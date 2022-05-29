@@ -16,7 +16,7 @@ BST<std::string> makeTree(const char* filename) {
         cout += 32;
       }
       word.push_back(cout);
-    } else { 
+    } else {
       tree.add(word);
       word.clear();
       continue;
