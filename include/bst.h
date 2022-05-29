@@ -21,7 +21,7 @@ int depth() {
 int search(T value) {
   return searchNode(top, value);
 }
- private:
+ private: 
   Node* top;
   Node* addNode(Node* top, T value) {
     if (top == nullptr) {
