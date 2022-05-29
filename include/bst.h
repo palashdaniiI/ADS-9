@@ -49,7 +49,7 @@ int search(T value) {
     return (L > R ? L : R) + 1;
   }
   int searchNode(Node* top, T value) {
-    if (top == nullptr) 
+    if (top == nullptr)
       return 0;
     else if (top->value > value)
       return searchNode(top->l, value);
